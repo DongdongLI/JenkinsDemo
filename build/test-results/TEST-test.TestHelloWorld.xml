@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.TestHelloWorld" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-07T15:16:10" hostname="DLI" time="0.001">
+  <properties/>
+  <testcase name="testHello" classname="test.TestHelloWorld" time="0.001"/>
+  <system-out><![CDATA[Testing testHello...1465312570700
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
