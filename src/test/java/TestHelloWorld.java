@@ -1,10 +1,11 @@
-package test;
+package test.java;
 
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import hello.HelloWorld;
+import main.java.HelloWorld;
+
 
 public class TestHelloWorld {
 	HelloWorld hw = new HelloWorld();

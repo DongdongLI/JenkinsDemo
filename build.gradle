@@ -3,17 +3,21 @@ apply plugin: 'jacoco'
 
 
 repositories {
-	mavenCentral()
+    mavenCentral()
 }
 
 dependencies{
-	compile 'junit:junit:4.12'
+    compile 'junit:junit:4.12'
 }
 
 test {
     afterTest { desc, result -> 
         println "Executing test ${desc.name} [${desc.className}] with result: ${result.resultType}"
     }
+}
+
+jacoco {
+    toolVersion = "0.7.6.201602180812"
 }
 
 jacocoTestReport {
